@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formularios</title>
+    </head>
+    <body>
+        <!--metodos
+        Get para obtener datos
+        Post para enviar datos-->
+        <form action="resultados.html" method="GET">
+            <div>
+                <label for="nombreusuario">Nombre de usuario</label>
+                <!--
+                    name para hacer referencia
+                    id identificador de etiqueta
+                    for para referencia enfocada
+                    required campo requerido
+                -->
+                <input name="nombreusuario" type="text" id="nombreusuario" required>
+            </div>
+            <br>
+            <div>
+                <label for="contrasena">contraseña</label>
+                <input name="contrasena" id="contrasena" type="password" required>
+            </div>
+            <br>
+            <div>
+                <label for="edad">Edad</label>
+                <input name="edad" id="edad" type="number" min="0" max="100" step="5">
+            </div>
+            <br>
+            <div>
+                <label for="cumple">cumple años</label>
+                <input name="cumple" id="cumple" type="date" required>
+            </div>
+            <br>
+            <div>
+                <label for="email">E-Mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="comentarios">Comentarios</label>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <button type="reset">Reset</button>
+            <button type="submit">Envair</button>
+        </form>
+    </body>
+</html>
