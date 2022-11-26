@@ -1,0 +1,36 @@
+h1 {
+    color: rgba(168, 21, 21, 0.555);
+}
+/* estamos cambiando el color y la fuente */
+p {
+    color: blue;
+    font-size: 200%;
+    font-style: italic;
+}
+
+#primera-noticia {
+    color: green;
+    font-size: 12pt;
+}
+
+#segunda-noticia {
+    color: brown;
+}
+
+.encabezado {
+    color: orange;
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+
+* {
+    font-style: oblique;
+}
+
+*.segunda-noticia {
+    font-size: 10em;
+}
+
+.autor, .fecha, .ubicacion {
+    text-decoration: underline;
+}
