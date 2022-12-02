@@ -1,0 +1,32 @@
+.flex {
+    background-color: rgb(224, 224, 61);
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenido-1 {
+    background-color: rgb(6, 179, 84);
+    /*height: 200px;*/
+    width: 200px;
+    border: 1px solid blue;
+}
+
+.contenido-2 {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border: 1px solid blue;
+}
+
+.contenido-3 {
+    background-color: rgb(214, 26, 26);
+    height: 200px;
+    width: 200px;
+    border: 1px solid blue;
+}
+
+/*https://codepen.io/enxaneta/full/adLPwv */
