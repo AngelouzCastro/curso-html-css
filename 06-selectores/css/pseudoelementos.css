@@ -4,6 +4,14 @@
     background-color: aquamarine;
 }
 
+div {
+    background-color: blue;
+}
+
+.libro {
+    background-color: pink;
+}
+
 span.frase {
     font-style: italic;
 }

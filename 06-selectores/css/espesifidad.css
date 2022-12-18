@@ -1,0 +1,25 @@
+/*los css se leen de arriba hacia abajo*/
+/*Espsififadad de los id (1, 0 ,0)
+clases (0, 1, 0)
+etiquetas (0, 0, 1)
+*/
+
+h1 #h1-id .h1-class {
+color: aqua;
+}
+
+h1 {
+    color: green;
+}
+
+#h1-id {
+    color: blue;
+}
+
+.h1-class {
+    color: orange !important;
+}
+
+p {
+    color: red;
+}
